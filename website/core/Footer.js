@@ -70,7 +70,7 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Twitter
             </a>
-            <a href="https://github.com/">GitHub</a>
+            <a href="https://github.com/lisachan81/my-website">GitHub</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
