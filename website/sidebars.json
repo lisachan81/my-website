@@ -1,0 +1,8 @@
+{
+  "docs": {
+    "My work": ["doc1", "doc2", "doc3"]
+  },
+  "docs-other": {
+    "Site documentation": ["doc99", "doc98"]
+  }
+}
