@@ -21,4 +21,4 @@ jobs:
       with:
         node-version: '12.x'
     - run: npm install
-    - run: npm --prefix D:\a\my-website\website\ run build
+    - run: npm run build
