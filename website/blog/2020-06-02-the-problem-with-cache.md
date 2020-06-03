@@ -9,4 +9,7 @@ Now got new problem: updating the S3 bucket isn't updating the site. Of course i
 
 <!--truncate-->
 
+![cry](assets/cry.png)
+me caching my tears - HAH dat pun.
+
 Praise the internet gods for [Stack Overflow](https://stackoverflow.com/questions/30154461/aws-cloudfront-not-updating-on-update-of-files-in-s3), which then led me here to [AWS docs](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html). Apparently the free tier is up to a 1000 invalidations a month which is plenty. 

@@ -11,3 +11,5 @@ Celebration shortlived: Now I realize that all the links in the (now HTTPS secur
 <!--truncate-->
 
 which then led to the whole REST vs. website endpoint; apparently Cloudfront takes REST as a default and REST doesn't resolve index documents (e.g. index.html) so I had to change the origin domain name to a Custom one to get everything to work again. Praise the internet gods for Stack Overflow!
+
+![stack](assets/stack.jpg)
