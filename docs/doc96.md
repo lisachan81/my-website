@@ -3,7 +3,6 @@ id: doc96
 title: Github 
 ---
 
+I thought it was a good practice to give my repo the open source treatment (not that it's a particularly interesting project to fork at all) but it feels nice to have [something on github](https://github.com/lisachan81/website).
 
-This is a link to [another document.](doc3.md)  
-This is a link to an [external page.](http://www.example.com)
-`code`
+![pleased](assets/oscar.png)
