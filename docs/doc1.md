@@ -1,12 +1,14 @@
 ---
 id: doc1
 title: My work
-sidebar_label: Purpose
+sidebar_label: My work
 ---
 
-Since I started in consulting, I've always been a bit of a zealot when it comes to fixing things. Fast forward 10 years, I made the jump to the client side and I realize just how many of those fixes just don't stick. Fast forward another 5 years and 2 transformations later, I'm still fixing shit in an eternal corporate purgatory of whack-a-mole. Oddly enough, I love doing it. There's a sick and strange sense of masochistic self-satisfaction that comes from moving giants in the direction of general improvement. 
+I lead a smattering of PETRONAS Group Digital's engineering transformation initiatives. My small department drives Agile, DevOps and cloud adoption in a one-leg-kick-all fashion. We aim to improve the lives of IT practitioners, and the businesses we serve, one iteration at a time!
 
-I graduated with a Second Upper Class degree in B.A. (Hons.) Politics, Philosophy and Economics from the University of York in 2003 - apparently this is what you read at university if you didn't know what you wanted to "be", but you knew you loved money. Subsequently I took a Masters (MsC) in Management at the London School of Economics in 2004 - because that's what you took if you still had no idea where your career was headed, but you still REALLY loved money. 
+I'm interested in scrutinizing the organizational idiosyncracies that make true transformation easy/ challenging/ downright impossible. I commit to reading more books and learning courses than I can realistically finish. If I'm not at home playing games, I'm outside diving or hiking. I'm passionate about volunteering in local tech grassroots communities if they'll have me.  
 
-Since then, I've only ever had 2 jobs. My first as a management consultant at Accenture and then at PETRONAS. 
+If you must know, I graduated with a Second Upper Class degree in B.A. (Hons.) Politics, Philosophy and Economics from the University of York in 2003. I took a Masters (MsC) in Management at the London School of Economics in 2004. 
+
+I've only ever had 2 jobs. My first as a management consultant at Accenture and then at PETRONAS. 
 

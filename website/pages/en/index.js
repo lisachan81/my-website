@@ -91,15 +91,16 @@ class Index extends React.Component {
       </Container>
     );
 
-    /* 
-    If you want to add this back, don't forget to add the <FeatureCallout /> back to the return function below
-    */ 
+
     const FeatureCallout = () => (
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
         <h2>How did I make this?</h2>
-        <MarkdownBlock>This website was a pet project I made using the Docusaurus static site generator and is hosted on Amazon S3. I've got some simple documentation under Docs</MarkdownBlock>
+        <MarkdownBlock>
+        This website was a pet project I made using the Docusaurus static site generator and is hosted on Amazon S3. I've got some simple documentation under Docs
+        </MarkdownBlock>
+        <h3><a href="docs/doc99.html">check it out</a></h3>
       </div>
     );
     
@@ -109,6 +110,8 @@ class Index extends React.Component {
         {[
           {
             content:
+              "I currently lead a random assortment of engineering transformation initiatives such as agile, DevOps and cloud adoption. Check " +
+              "[**here for my work.**](docs/doc1.html) " + 
               "If you'd like a copy of my CV, " +
               "[**let me know**](mailto:lisachan81@gmail.com)",
             image: `${baseUrl}img/undraw_cv.svg`,
