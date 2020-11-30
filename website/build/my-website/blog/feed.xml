@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>I'm Lisa Chan Blog</title>
+        <link>http://icanlearnhowtocode.net/blog</link>
+        <description>The best place to stay up-to-date with the latest I'm Lisa Chan news and events.</description>
+        <lastBuildDate>Mon, 02 Nov 2020 06:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>I'm Lisa Chan Blog</title>
+            <url>http://icanlearnhowtocode.net/img/idea.svg</url>
+            <link>http://icanlearnhowtocode.net/blog</link>
+        </image>
+        <copyright>Copyright © 2020 Lisa Chan</copyright>
+        <item>
+            <title><![CDATA[When implementing agile and DevOps, caveat lector...]]></title>
+            <link>http://icanlearnhowtocode.net/blog/2020/11/02/agile-caveat.html</link>
+            <guid>http://icanlearnhowtocode.net/blog/2020/11/02/agile-caveat.html</guid>
+            <pubDate>Mon, 02 Nov 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<ol>
+<li>Everyone will have an opinion on what it is, which will more often than not, be entirely wrong</li>
+</ol>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Autonomy and Empowerment: The holy grail of productivity & happiness, or convenient excuse for inefficiency?]]></title>
+            <link>http://icanlearnhowtocode.net/blog/2020/09/28/empowerment.html</link>
+            <guid>http://icanlearnhowtocode.net/blog/2020/09/28/empowerment.html</guid>
+            <pubDate>Mon, 28 Sep 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>I've been thinking about this a lot lately. I've been wondering about whether empowerment is just a thing we like to say that we need, but never really get to see in action.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[On (highly annoying and) ineffective mandatory quizzes]]></title>
+            <link>http://icanlearnhowtocode.net/blog/2020/07/28/quizzes.html</link>
+            <guid>http://icanlearnhowtocode.net/blog/2020/07/28/quizzes.html</guid>
+            <pubDate>Tue, 28 Jul 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>I'm going to go out of a limb and guess that everyone hates mandatory corporate training. Whether it's ethics, compliance or regulation related - we all hate doing it.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Scrum... really?]]></title>
+            <link>http://icanlearnhowtocode.net/blog/2020/07/01/scrum-really.html</link>
+            <guid>http://icanlearnhowtocode.net/blog/2020/07/01/scrum-really.html</guid>
+            <pubDate>Wed, 01 Jul 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>OK so I just finished the Professional Scrum class with the good folks from Scrum.org. Great people, fantastic trainers and content. All of us had a good time. The framework gives some valuable insights on how to properly empower teams to enable them to do the right thing. Great stuff.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tricked by AWS]]></title>
+            <link>http://icanlearnhowtocode.net/blog/2020/06/05/tricked-by-aws.html</link>
+            <guid>http://icanlearnhowtocode.net/blog/2020/06/05/tricked-by-aws.html</guid>
+            <pubDate>Fri, 05 Jun 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>So yesterday I implemented part of a quickstart resource that creates webhook endpoints and deploys an AWS lambda function to push my source code to S3. Everything was fine up until after I'd created all the resources in the Cloudformation template</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Automating my deployment (forget about build for the time being)]]></title>
+            <link>http://icanlearnhowtocode.net/blog/2020/06/04/git-webhooks-and-aws.html</link>
+            <guid>http://icanlearnhowtocode.net/blog/2020/06/04/git-webhooks-and-aws.html</guid>
+            <pubDate>Thu, 04 Jun 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>I found a quickstart resource that creates webhook endpoints and deploys an AWS lambda function to push my source code to S3. It uses a pre-existing Cloudformation template so lagi noob, just have to click Next... next... create...</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Automating my build]]></title>
+            <link>http://icanlearnhowtocode.net/blog/2020/06/03/automating-my-build.html</link>
+            <guid>http://icanlearnhowtocode.net/blog/2020/06/03/automating-my-build.html</guid>
+            <pubDate>Wed, 03 Jun 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>I'm starting to realize that Github documentation isn't as noob friendly as AWS' is. Maybe deciding to automate CI using Github actions was the wrong choice. My non-technical brain is beginning to buckle under the weight of these goddamn yaml files.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The problem with caching]]></title>
+            <link>http://icanlearnhowtocode.net/blog/2020/06/02/the-problem-with-cache.html</link>
+            <guid>http://icanlearnhowtocode.net/blog/2020/06/02/the-problem-with-cache.html</guid>
+            <pubDate>Tue, 02 Jun 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Now got new problem: updating the S3 bucket isn't updating the site. Of course it's because the bloody Cloudfront distribution is still serving the old files  - because it caches a response from S3 for 24 hours, so if I update my site within that timeframe, it's not going to show.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Death by HTTPS]]></title>
+            <link>http://icanlearnhowtocode.net/blog/2020/06/01/death-by-HTTPS.html</link>
+            <guid>http://icanlearnhowtocode.net/blog/2020/06/01/death-by-HTTPS.html</guid>
+            <pubDate>Mon, 01 Jun 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>OK so it took longer to setup Cloudfront and the goddamn HTTPS than it did to get the website itself done. The Cloudfront distribution itself was easy enough to setup, so were the record sets and routing policies on Route 53. But it took a bit of muddling around in different parts of the AWS documentation repo (prob larger than the Vatican library at this point) to get the SSL certs requested, the domain names verified, and then the fucking CNAMEs added to the Cloudfront distribution. Voila my website has a nice padlock next to the address!</p>
+<p>Celebration shortlived: Now I realize that all the links in the (now HTTPS secure) website are broken. FML.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Version 1.0.0]]></title>
+            <link>http://icanlearnhowtocode.net/blog/2020/05/31/new-version-1.0.0.html</link>
+            <guid>http://icanlearnhowtocode.net/blog/2020/05/31/new-version-1.0.0.html</guid>
+            <pubDate>Sun, 31 May 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Aaandd the new site is up and running! Got the documentation starting <a href="doc99.md">here</a>. I feffed about for a bit with the Pelican SSG before deciding it was not very well documented enough for a noob like me, and settled on Docusaurus instead.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Finally got off my ass]]></title>
+            <link>http://icanlearnhowtocode.net/blog/2020/05/30/a-new-beginning.html</link>
+            <guid>http://icanlearnhowtocode.net/blog/2020/05/30/a-new-beginning.html</guid>
+            <pubDate>Sat, 30 May 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>I'd been procrastinating this for some time (read: 15 years). Building my own website was way overdue. I'd seen this great example at <a href="https://solar.lowtechmagazine.com/power.html">low tech magazine</a>, the solar powered website. It was an inspiring story. If people out there in the world are cobbling together sun powered servers with sustainable stylesheets and serving them to viewers out of their apartments in Barcelona, what the hell was I doing with my life?</p>
+]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>When implementing agile and DevOps, caveat lector... · I&#x27;m Lisa Chan</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="1. Everyone will have an opinion on what it is, which will more often than not, be entirely wrong"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="When implementing agile and DevOps, caveat lector... · I&#x27;m Lisa Chan"/><meta property="og:type" content="website"/><meta property="og:url" content="http://icanlearnhowtocode.net/blog/2020/11/02/agile-caveat"/><meta property="og:description" content="1. Everyone will have an opinion on what it is, which will more often than not, be entirely wrong"/><meta property="og:image" content="http://icanlearnhowtocode.net/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="http://icanlearnhowtocode.net/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/idea.svg"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="http://icanlearnhowtocode.net/blog/atom.xml" title="I&#x27;m Lisa Chan Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="http://icanlearnhowtocode.net/blog/feed.xml" title="I&#x27;m Lisa Chan Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/idea.svg" alt="I&#x27;m Lisa Chan"/><h2 class="headerTitleWithLogo">I&#x27;m Lisa Chan</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/doc1" target="_self">My Work</a></li><li class=""><a href="/docs/doc99" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/blog/" target="_self">Blog</a></li><li class=""><a href="/form" target="_self">Hello?</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/blog/2020/11/02/agile-caveat">When implementing agile and DevOps, caveat lector...</a></li><li class="navListItem"><a class="navItem" href="/blog/2020/09/28/empowerment">Autonomy and Empowerment: The holy grail of productivity &amp; happiness, or convenient excuse for inefficiency?</a></li><li class="navListItem"><a class="navItem" href="/blog/2020/07/28/quizzes">On (highly annoying and) ineffective mandatory quizzes</a></li><li class="navListItem"><a class="navItem" href="/blog/2020/07/01/scrum-really">Scrum... really?</a></li><li class="navListItem"><a class="navItem" href="/blog/2020/06/05/tricked-by-aws">Tricked by AWS</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2020/11/02/agile-caveat">When implementing agile and DevOps, caveat lector...</a></h1><p class="post-meta">November 2, 2020</p><div class="authorBlock"><p class="post-authorName"><a href="https://www.linkedin.com/in/lisa-chan-b448ab1b/" target="_blank" rel="noreferrer noopener">Lisa Chan</a></p><div class="authorPhoto"><a href="https://www.linkedin.com/in/lisa-chan-b448ab1b/" target="_blank" rel="noreferrer noopener"><img src="https://graph.facebook.com/522880964/picture/?height=200&amp;width=200" alt="Lisa Chan"/></a></div></div></header><div><span><ol>
+<li>Everyone will have an opinion on what it is, which will more often than not, be entirely wrong</li>
+</ol>
+<!--truncate-->
+<ol start="2">
+<li><p>Everyone will be remarkably familiar with its most famous expected outcome: it (allegedly) makes everything faster</p></li>
+<li><p>Your boss may or may not know what it is, but it doesn't matter because either way he/she will want it yesterday</p></li>
+<li><p>The business (your customers) will not appreciate the enormity of the engineering overhaul that needs to precede any agile implementation, and your IT department will not be able to explain it to them</p></li>
+<li><p>Project managers will rebrand themselves &quot;product owners&quot;, but they will engage in their daily work in more or less the same way as before</p></li>
+<li><p>Developers will believe (correctly) that operations doesn't understand what they need to do this, and so will start taking on ops responsibilities - believing that the work can be &quot;automated away&quot;</p></li>
+<li><p>Operations will assume (correctly) that giving the keys to the kingdom to developers will create instability, chaos and mayhem</p></li>
+<li><p>Cybersecurity will not give a rat's ass what anybody wants, and will keep all the keys to themselves</p></li>
+<li><p>UI/UX designers will spike in demand, because who cares about engineering when my product is so pretty??</p></li>
+<li><p>Teams will organize a plethora of new meetings like the daily stand up, sprint planning, retro. However, real stakeholders and decision-makers won't attend because they either don't have the time or believe that these are all just &quot;working level&quot; meetings</p></li>
+</ol>
+<p>Disclaimer: opinions stated are completely my own and not my company's</p>
+</span></div></div><div class="blogSocialSection"><div class="blogSocialSectionItem"><a href="https://twitter.com/share" class="twitter-share-button" data-text="When implementing agile and DevOps, caveat lector..." data-url="http://icanlearnhowtocode.net/blog/2020/11/02/agile-caveat" data-related="true" data-show-count="false">Tweet</a></div></div></div><div class="blog-recent"><a class="button" href="/blog/">Recent Posts</a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/idea.svg" alt="I&#x27;m Lisa Chan" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">My work</a><a href="/docs/en/doc99.html">Site documentation</a></div><div><h5>Get in touch</h5><a href="/en/form.html">Say hello</a></div><div><h5>More</h5><a href="https://www.linkedin.com/in/lisa-chan-b448ab1b/" target="_blank" rel="noreferrer noopener">LinkedIn</a><a href="https://engineersmy.slack.com/team/URSR8HA77" target="_blank" rel="noreferrer noopener">Slack</a><a href="https://twitter.com/lisachan81" target="_blank" rel="noreferrer noopener">Twitter</a><a href="https://github.com/lisachan81/my-website">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a><div class="social"><a href="https://twitter.com/lisachan81" class="twitter-follow-button">Follow @lisachan81</a></div></div></section><section class="copyright">Copyright © 2020 Lisa Chan</section></footer></div><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script></body></html>
