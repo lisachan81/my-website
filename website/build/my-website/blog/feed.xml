@@ -4,7 +4,7 @@
         <title>I'm Lisa Chan Blog</title>
         <link>http://icanlearnhowtocode.net/blog</link>
         <description>The best place to stay up-to-date with the latest I'm Lisa Chan news and events.</description>
-        <lastBuildDate>Mon, 02 Nov 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Jan 2021 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -12,7 +12,15 @@
             <url>http://icanlearnhowtocode.net/img/idea.svg</url>
             <link>http://icanlearnhowtocode.net/blog</link>
         </image>
-        <copyright>Copyright © 2020 Lisa Chan</copyright>
+        <copyright>Copyright © 2021 Lisa Chan</copyright>
+        <item>
+            <title><![CDATA[Millennials: we're really not that young anymore]]></title>
+            <link>http://icanlearnhowtocode.net/blog/2021/01/12/millennials.html</link>
+            <guid>http://icanlearnhowtocode.net/blog/2021/01/12/millennials.html</guid>
+            <pubDate>Tue, 12 Jan 2021 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>In my interactions with my co-workers, I realize that there's this ageism misconception that's really pervasive.</p>
+]]></description>
+        </item>
         <item>
             <title><![CDATA[When implementing agile and DevOps, caveat lector...]]></title>
             <link>http://icanlearnhowtocode.net/blog/2020/11/02/agile-caveat.html</link>

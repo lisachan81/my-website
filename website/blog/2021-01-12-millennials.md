@@ -19,7 +19,7 @@ What if I asked you to think about a colleague who's just turning 40 this year, 
 
 Newsflash: this guy is a millennial.
 
-> According to the Pew Research Center:
+According to the Pew Research Center:
 
 > Anyone born between 1981 and 1996 (ages 25 to 40 in 2021) is considered a Millennial, and anyone born from 1997 onward is part of a new generation.
 

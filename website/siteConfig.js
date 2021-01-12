@@ -41,7 +41,7 @@ const siteConfig = {
     {doc: 'doc1', label: 'My Work'},
     {doc: 'doc99', label: 'Docs'},
     {blog: true, label: 'Blog'},
-    {page: 'form', label: 'Hello?'},
+   // {page: 'form', label: 'Hello?'}, --> comment this back out later when new page is ready
   ],
 
   // If you have users set above, you add it here:

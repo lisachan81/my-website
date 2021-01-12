@@ -2,12 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://icanlearnhowtocode.net/blog</id>
     <title>I'm Lisa Chan Blog</title>
-    <updated>2020-11-02T06:00:00.000Z</updated>
+    <updated>2021-01-12T06:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://icanlearnhowtocode.net/blog"/>
     <subtitle>The best place to stay up-to-date with the latest I'm Lisa Chan news and events.</subtitle>
     <logo>http://icanlearnhowtocode.net/img/idea.svg</logo>
-    <rights>Copyright © 2020 Lisa Chan</rights>
+    <rights>Copyright © 2021 Lisa Chan</rights>
+    <entry>
+        <title type="html"><![CDATA[Millennials: we're really not that young anymore]]></title>
+        <id>http://icanlearnhowtocode.net/blog/2021/01/12/millennials.html</id>
+        <link href="http://icanlearnhowtocode.net/blog/2021/01/12/millennials.html"/>
+        <updated>2021-01-12T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>In my interactions with my co-workers, I realize that there's this ageism misconception that's really pervasive.</p>
+]]></summary>
+        <author>
+            <name>Lisa Chan</name>
+            <email/>
+            <uri>https://www.linkedin.com/in/lisa-chan-b448ab1b/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[When implementing agile and DevOps, caveat lector...]]></title>
         <id>http://icanlearnhowtocode.net/blog/2020/11/02/agile-caveat.html</id>
@@ -19,6 +32,7 @@
 ]]></summary>
         <author>
             <name>Lisa Chan</name>
+            <email/>
             <uri>https://www.linkedin.com/in/lisa-chan-b448ab1b/</uri>
         </author>
     </entry>
@@ -31,6 +45,7 @@
 ]]></summary>
         <author>
             <name>Lisa Chan</name>
+            <email/>
             <uri>https://www.linkedin.com/in/lisa-chan-b448ab1b/</uri>
         </author>
     </entry>
@@ -43,6 +58,7 @@
 ]]></summary>
         <author>
             <name>Lisa Chan</name>
+            <email/>
             <uri>https://www.linkedin.com/in/lisa-chan-b448ab1b/</uri>
         </author>
     </entry>
@@ -55,6 +71,7 @@
 ]]></summary>
         <author>
             <name>Lisa Chan</name>
+            <email/>
             <uri>https://www.linkedin.com/in/lisa-chan-b448ab1b/</uri>
         </author>
     </entry>
@@ -67,6 +84,7 @@
 ]]></summary>
         <author>
             <name>Lisa Chan</name>
+            <email/>
             <uri>https://www.linkedin.com/in/lisa-chan-b448ab1b/</uri>
         </author>
     </entry>
@@ -79,6 +97,7 @@
 ]]></summary>
         <author>
             <name>Lisa Chan</name>
+            <email/>
             <uri>https://www.linkedin.com/in/lisa-chan-b448ab1b/</uri>
         </author>
     </entry>
@@ -91,6 +110,7 @@
 ]]></summary>
         <author>
             <name>Lisa Chan</name>
+            <email/>
             <uri>https://www.linkedin.com/in/lisa-chan-b448ab1b/</uri>
         </author>
     </entry>
@@ -103,6 +123,7 @@
 ]]></summary>
         <author>
             <name>Lisa Chan</name>
+            <email/>
             <uri>https://www.linkedin.com/in/lisa-chan-b448ab1b/</uri>
         </author>
     </entry>
@@ -116,6 +137,7 @@
 ]]></summary>
         <author>
             <name>Lisa Chan</name>
+            <email/>
             <uri>https://www.linkedin.com/in/lisa-chan-b448ab1b/</uri>
         </author>
     </entry>
@@ -128,6 +150,7 @@
 ]]></summary>
         <author>
             <name>Lisa Chan</name>
+            <email/>
             <uri>https://www.linkedin.com/in/lisa-chan-b448ab1b/</uri>
         </author>
     </entry>
@@ -140,6 +163,7 @@
 ]]></summary>
         <author>
             <name>Lisa Chan</name>
+            <email/>
             <uri>https://www.linkedin.com/in/lisa-chan-b448ab1b/</uri>
         </author>
     </entry>
